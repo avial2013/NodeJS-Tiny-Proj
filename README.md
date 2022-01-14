@@ -6,6 +6,8 @@
 ### Description
 A tiny website with a schedule table for adding Torah Lessons...
 
+> **_To see how the website looks like please go to folder `FINAL_IMG` and you have there some images.
+ 
 ### Using
 * Front:
    - Full-Stack-web
