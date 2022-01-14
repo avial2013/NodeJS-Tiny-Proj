@@ -1,0 +1,26 @@
+@website/lessons = http://localhost:3000/lessons
+
+### GET
+GET {{website/lessons}}/
+
+### POST 
+POST {{website/lessons}}/addLesson
+Content-Type: application/json
+
+{
+    "rebiName": "Ronen Shaulov",
+    "topic": "Bitachon",
+    "address": "Bat-Yam, Elazar 30/2",
+    "dateTime":"20:30 - 10, Shvat, 5782 (12.01.22)"
+}
+
+### UPDATE Rebi's name
+PUT {{website/lessons}}/updateLesson/RN/Ronen Shaulov
+Content-Type: application/json
+
+{
+    "newRebiName":"Harav Ohayon"
+}
+
+### DELETE
+DELETE {{website/lessons}}/deleteLesson/

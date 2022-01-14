@@ -1,0 +1,36 @@
+{
+  "name": "torah_lessons_proj",
+  "version": "1.0.0",
+  "description": "Staying updated with Shiurey Torah (Torah - lessons) that are yet to come.",
+  "main": "server.js",
+  "scripts": {
+    "test": "Baruch Hashem",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avial2013/NodeJs-Express-App.git"
+  },
+  "keywords": [
+    "Torah",
+    "Lessons",
+    "Server",
+    "Express",
+    "JS",
+    "Bootstrap",
+    "HTML",
+    "Hashem"
+  ],
+  "author": "KBH.AY (C)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avial2013/NodeJs-Express-App/issues"
+  },
+  "homepage": "https://github.com/avial2013/NodeJs-Express-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15"
+  }
+}
